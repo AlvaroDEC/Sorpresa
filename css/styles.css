@@ -192,6 +192,16 @@ body {
   animation: fadeInMessage 2s ease-in-out 3s forwards;
 }
 
+.message-izquierdo {
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  z-index: 10;
+  opacity: 0;
+  animation: fadeInMessage 10s ease-in-out 10s forwards;
+}
+
 .message-text {
   background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 140, 0, 0.1));
   backdrop-filter: blur(10px);
