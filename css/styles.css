@@ -267,6 +267,11 @@ body {
   font-style: italic;
 }
 
+.message-line--4 {
+  animation-delay: 6.5s;
+  font-weight: italic;
+}
+
 .flowers {
   position: relative;
   transform: scale(0.9);
